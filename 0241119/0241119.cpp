@@ -23,10 +23,10 @@ public:
    
     void display() {
         cout << "ID: " << id << endl;
-        cout << "Last Name: " << lastName << endl;
-        cout << "First Name: " << firstName << endl;
-        cout << "Gender: " << (gender == 'M' ? "Male" : "Female") << endl;
-        cout << "Birth Date: " << birthDate << endl;
+        cout << "姓: " << lastName << endl;
+        cout << "名: " << firstName << endl;
+        cout << "性別: " << (gender == 'M' ? "Male" : "Female") << endl;
+        cout << "生日: " << birthDate << endl;
     }
 };
 

@@ -32,7 +32,7 @@ public:
 
 int main() {
     Person person(1, "Smith", "John", 'M', "1990-01-01");
-    person.display();
+    person.display()
 
     return 0;
 }
